@@ -5,10 +5,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>download</title>
+  <link rel="stylesheet" href="./normalize.css">
+  <link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
-
+  <input type="file" />
+  <div class="output"></div>
+  <div class="top-button-group">
+    <div>对比</div>
+    <div>线上</div>
+    <div>本地</div>
+    <div>缺失</div>
+  </div>
+  <div class="content" id="content">
+    <div class="content-line">test</div>
+  </div>
+  <div class="bottom-button-group">
+    <button class="primary-button" id="syncButton">同步</button>
+    <button class="primary-button" id="downloadButton">下载</button>
+    <button class="primary-button" id="downloadTest">测试</button>
+  </div>
+  <script type="module" src="./index.js"> </script>
 </body>
 
 </html>

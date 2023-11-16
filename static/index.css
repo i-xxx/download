@@ -1,0 +1,43 @@
+body {
+  background-color: #fafafa;
+}
+.top-button-group {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fafafa;
+}
+.top-button-group > div {
+  display: inline-block;
+  width: 20vw;
+  text-align: center;
+  height:50px;
+  line-height: 50px;
+}
+.content {
+  height: calc(100vh - 100px);
+  padding-top: 50px;
+  overflow-y: auto;
+}
+.bottom-button-group {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 30px;
+}
+.primary-button {
+  height: 30px;
+  padding: 0 30px;
+}
+.content-line {
+  padding: 10px 0 10px 20px;
+  color: #aaa;
+}
+.output {
+  overflow: scroll;
+  margin: 1rem 0;
+  height: 200px;
+}
